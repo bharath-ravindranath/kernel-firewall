@@ -1,6 +1,6 @@
 This README gives the detailed description of how to build the kernel module "Firewall" and insert it into the kernel.
 
-#System used
+##System used
 
 The topology used in GENI is given in the file "Topology".
 All the GENI nodes use Ubuntu 14.04 image
@@ -31,7 +31,7 @@ root@RemoteClient:~# uname -a
 Linux RemoteClient 3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
 root@RemoteClient:~# 
 
-#Firewall installation instruction
+##Firewall installation instruction
 
 Step1: Creating topology
 	- The file "topology" is used to create the topology in GENI.
@@ -50,7 +50,7 @@ Step5: Issue "insmod Firewall.ko INTERFACE=<interface>" command to insert the mo
 	Example: "insmod Firewall.ko INTERFACE=eth1"
 
 
-#Web Server IP address modification
+##Web Server IP address modification
 
 The WebServer address is hardcoded into the Firewall.c kernel program. 
 If the IP address of the WebServer is other than 192.168.1.12 the Macro in the Firewall.c program should be changed to the appropriate ip address in hexadecimal format.
