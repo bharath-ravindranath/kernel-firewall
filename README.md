@@ -55,5 +55,5 @@ Step5: Issue "insmod Firewall.ko INTERFACE=<interface>" command to insert the mo
 The WebServer address is hardcoded into the Firewall.c kernel program. 
 If the IP address of the WebServer is other than 192.168.1.12 the Macro in the Firewall.c program should be changed to the appropriate ip address in hexadecimal format.
 
-Example: If the Server IP address is 10.0.0.1
-	In Firewall.c file change #define WEB_SERVER_ADDRESS "\xC0\xA8\x01\x0C" to #define WEB_SERVER_ADDRESS "\x0A\x00\x00\x01"
+    Example: If the Server IP address is 10.0.0.1
+	   In Firewall.c file change #define WEB_SERVER_ADDRESS "\xC0\xA8\x01\x0C" to #define WEB_SERVER_ADDRESS "\x0A\x00\x00\x01"
