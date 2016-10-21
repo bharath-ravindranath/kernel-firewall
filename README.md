@@ -32,6 +32,7 @@ Linux RemoteClient 3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
 root@RemoteClient:~# 
 
 ##Firewall installation instruction
+![Alt text](topology.png?raw=true "Topology")
 
 Step1: Creating topology
 	- The file "topology" is used to create the topology in GENI.
